@@ -19,11 +19,11 @@ function Home() {
   }, [dispatch]);
   return (
     <div>
-      <img
-        src="https://assets.materialup.com/uploads/72095821-fd19-46af-93a4-85a1e2ca7997/preview.jpg"
-        className="home-banner"
-        alt=""
-      />
+//       <img
+//         src="https://assets.materialup.com/uploads/72095821-fd19-46af-93a4-85a1e2ca7997/preview.jpg"
+//         className="home-banner"
+//         alt=""
+//       />
       <div className="featured-products-container container mt-4">
         <h2>Last products</h2>
         {/* last products here */}
@@ -47,10 +47,10 @@ function Home() {
       </div>
       {/* sale banner */}
       <div className="sale__banner--container mt-4">
-        <img
-          src="https://assets.materialup.com/uploads/45cd12ab-3fca-488e-acb0-55fc4cd92303/preview.jpg"
-          alt=""
-        />
+//         <img
+//           src="https://assets.materialup.com/uploads/45cd12ab-3fca-488e-acb0-55fc4cd92303/preview.jpg"
+//           alt=""
+//         />
       </div>
       <div className="recent-products-container container mt-4">
         <h2>Categories</h2>
