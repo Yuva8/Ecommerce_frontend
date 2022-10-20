@@ -31,3 +31,48 @@ img.card-img-top.product-preview-img {
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 400px) {
+  .sale__banner--container img {
+    width: 250px;
+  }
+  .home-banner {
+    width: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sale__banner--container img {
+    width: 350px;
+  }
+  .home-banner {
+    width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sale__banner--container img {
+    width: 450px;
+  }
+  .home-banner {
+    width: 450px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sale__banner--container img {
+    width: 550px;
+  }
+  .home-banner {
+    width: 550px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sale__banner--container img {
+    width: 750px;
+  }
+  .home-banner {
+    width: 750px;
+  }
+}
