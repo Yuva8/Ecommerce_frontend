@@ -22,7 +22,7 @@ function CheckoutForm() {
     if (!stripe || !elements || user.cart.count <= 0) return;
     setPaying(true);
     const { client_secret } = await fetch(
-      "https://ecommerceyuvi.herokuapp.com/create-payment",
+      "https://yuviecommerce-backend.onrender.com/create-payment",
       {
         method: "POST",
         headers: {
