@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const appApi = createApi({
   reducerPath: "appApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://ecommerceyuvi.herokuapp.com/",
+    baseUrl: "https://yuviecommerce-backend.onrender.com/",
   }),
   endpoints: (builder) => ({
     signup: builder.mutation({
